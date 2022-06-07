@@ -28,6 +28,10 @@ Given a context we can then use our information to make an inference and gain kn
 
 
 
+## What does it mean to write code.
+
+
+
 
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
