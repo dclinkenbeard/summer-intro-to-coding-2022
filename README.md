@@ -9,7 +9,7 @@ We will start by discussing the absolute basics and getting familiar with some t
 
 ## The Difference Between Data and Information
 
-Data are facts[*](#footnote000). 
+Data are facts[ * ](#footnote000). 
 - Blue
 - Four
 - Fish
@@ -20,12 +20,15 @@ Data are facts[*](#footnote000).
 - Cats have *four* legs
 - *Fish* live in water
 
-Given a context we can then use our information to make an inference and gain knowledge: "That thing in sky is neither a cat nor a fish. It does NOT have four legs and so, I can infer, it must be a dog [**](#footnote001).
+Given a context we can then use our information to make an inference and gain knowledge: "That thing in sky is neither a cat nor a fish. It does NOT have four legs and so, I can infer, it must be a dog. [ ** ](#footnote001)
 
 
 
-## What does it mean to write code.
+## What does it mean to *"code"*
 
+Quite simply it means to write using symbols that a computer can translate into some form of action.  I love writing code because it is magic.  Anyone who says differently is either lying, selling something, or has no joy in their soul.
+
+Just because it is magic doesn't mean it is difficult or inexplicable [ † ](#footnnote002). 
 
 
 
@@ -33,3 +36,6 @@ Given a context we can then use our information to make an inference and gain kn
 
 
 <a name="footnote001">\*\*</a> Be careful of inferences with incomplete data.
+
+
+<a name="footnnote002">\†</a> The entire focus of Hogwarts, Unseen University, Tar Valon, The College of Winterhold, Morgrave, Sorcere, and many others is to teach magic, don't tell me magic is inexplicable.  Just because it can be explained doesn't mean it isn't magic.  We are using specific words and symbols to create effects and changes on the physical world.  If that isn't magic then I don't know what is.  
