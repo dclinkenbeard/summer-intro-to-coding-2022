@@ -49,19 +49,19 @@ All of the programming languages I know of have some form of variable.  A variab
 
 In most programming languages what a variable actually does is reference a location in the computer's memory.  This is getting beyond the scope of this workshop though and if you would like to learn more you may be interested in a Data Science or [ Computer Science minor](https://csumb.edu/scd/computer-science-minor-0/) (or major...)
 
-** Variables in Python **
+**Variables in Python**
 
 Variables in python are declared as follows:
 ```
 foo = 42
 ```
-** Variables in Matlab **
+**Variables in Matlab**
 
 Variables in Matlab are declared as follows:
 ```
 foo = 42;
 ```
-** Variables in R **
+**Variables in R**
 
 Variables in R are declared as follows:
 ```
@@ -70,7 +70,7 @@ foo = 42
 
 Note that the ONLY difference is that Matlab requires a semicolon (;) after the declaration.  It is also worth noting that R also allows an arrow notation as shown below.
 
-** Alternative Variable Declaration in R **
+**Alternative Variable Declaration in R**
 ```
 foo <- 42
 42 -> foo
@@ -87,6 +87,8 @@ Once we have variable we need some method to manipulate those variables and make
 
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
+
+<a name="footnote001">\*\*</a> Be careful of inferences with incomplete data.
 
 <a name="footnnote002">†</a> The entire focus of Hogwarts, Unseen University, Tar Valon, The College of Winterhold, Morgrave, Sorcere, and many others is to teach magic, don't tell me magic is inexplicable.  Just because it can be explained doesn't mean it isn't magic.  We are using specific words and symbols to create effects and changes on the physical world.  If that isn't magic then I don't know what is.  
 
