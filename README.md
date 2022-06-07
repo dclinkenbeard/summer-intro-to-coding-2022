@@ -7,6 +7,16 @@ This workshop is really for anyone that is curious about writing code, data, sci
 
 We will start by discussing the absolute basics and getting familiar with some terminology. 
 
+## Where to Start
+
+By now you should have a CSUMB email address.  If so you can use that email address to log in to the the following three services:
+
+- [ Google Colab ](https://colab.research.google.com/)
+- [ Mathworks Matlab](https://matlab.mathworks.com/)
+- [ R Studio ](https://rstudio.cloud/)
+
+
+
 ## The Difference Between Data and Information
 
 Data are facts[ * ](#footnote000). 
@@ -31,6 +41,7 @@ Quite simply it means to write using symbols that a computer can translate into 
 Just because it is magic doesn't mean it is difficult or inexplicable [ † ](#footnnote002). 
 
 
+## Footnotes [ 🐢 ](#final-note)
 
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
@@ -38,4 +49,7 @@ Just because it is magic doesn't mean it is difficult or inexplicable [ † ](#f
 <a name="footnote001">\*\*</a> Be careful of inferences with incomplete data.
 
 
-<a name="footnnote002">\†</a> The entire focus of Hogwarts, Unseen University, Tar Valon, The College of Winterhold, Morgrave, Sorcere, and many others is to teach magic, don't tell me magic is inexplicable.  Just because it can be explained doesn't mean it isn't magic.  We are using specific words and symbols to create effects and changes on the physical world.  If that isn't magic then I don't know what is.  
+<a name="footnnote002">†</a> The entire focus of Hogwarts, Unseen University, Tar Valon, The College of Winterhold, Morgrave, Sorcere, and many others is to teach magic, don't tell me magic is inexplicable.  Just because it can be explained doesn't mean it isn't magic.  We are using specific words and symbols to create effects and changes on the physical world.  If that isn't magic then I don't know what is.  
+
+
+<a name="final-note"> 🐢 </a> I am a big fan of [Sir Terry Pratchett](https://www.terrypratchettbooks.com/) who was a big fan of footnotes.
