@@ -37,7 +37,7 @@ We use code to gather, interpret, and make inferences with data.  Learning how t
 
 ## What does it mean to *"code"*
 
-Just because it is magic doesn't mean it is difficult or inexplicable [ † ](#footnnote002).
+Coding, or programming as I will generally call it, is using symbols to communicate with a computer and command it to do what we want. In other words: magic. However just because it is magic doesn't mean it is difficult or inexplicable [ † ](#footnnote002).
 
 Each programming language uses a different set of symbols to tell a computer what to do.  The way we use and group those symbols is called the **syntax** of the language.
 
