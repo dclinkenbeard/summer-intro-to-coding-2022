@@ -19,7 +19,7 @@ Please use your CSUMB email address to log in to the the following three service
 
 ## The Difference Between Data and Information
 
-Data are facts[*](#footnote000). 
+Data are facts[ * ](#footnote000). 
 - Blue
 - Four
 - Fish
@@ -35,7 +35,7 @@ Given a context we can then use our information to make an inference and gain kn
 
 We use code to gather, interpret, and make inferences with data.  Learning how to accurately interpret data takes a lot of time and practice and is largely what it means to *be a scientist*.
 
-## What does it mean to write code.
+## What does it mean to *"code"*
 
 Just because it is magic doesn't mean it is difficult or inexplicable [ † ](#footnnote002).
 
@@ -84,6 +84,8 @@ Once we have variable we need some method to manipulate those variables and make
 
 ## Footnotes [ :turtle: ](#final-note)
 
+
+## Footnotes [ 🐢 ](#final-note)
 
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
