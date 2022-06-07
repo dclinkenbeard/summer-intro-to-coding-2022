@@ -79,7 +79,10 @@ foo <- 42
 
 ### Control Structures
 
-Once we have variable we need some method to manipulate those variables and make decisions based on those variables. 
+Once we have variable we need some method to manipulate those variables and make decisions based on those variables. For this we need to introduce things like if statments, loops, and maybe even functions.  This is all well beyond the scope of this readme however so to learn more you will simply need to attend the workshop. 
+
+
+
 
 
 ## Footnotes [ :turtle: ](#final-note)
