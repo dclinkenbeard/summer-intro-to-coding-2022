@@ -85,8 +85,6 @@ Once we have variable we need some method to manipulate those variables and make
 ## Footnotes [ :turtle: ](#final-note)
 
 
-## Footnotes [ 🐢 ](#final-note)
-
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
 
