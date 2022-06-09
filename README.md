@@ -31,7 +31,7 @@ Data are facts[ * ](#footnote000).
 - *Fish* live in water
 
 
-Given a context we can then use our information to make an inference and gain knowledge: "That thing in sky is neither a cat nor a fish. It does NOT have four legs and so, I can infer, it must be... a dog. [ ** ](#footnote001)
+Given a context we can then use our information to make an inference and gain knowledge: "That thing in sky is neither a cat nor a fish. It does NOT have four legs and so, I can infer, it must be... a dog.  Be careful of making inferences with incomplete data.  We can really only determine that it is neither a cat (doesn't have for legs) nor a fish (not in the water). 
 
 We use code to gather, interpret, and make inferences with data.  Learning how to accurately interpret data takes a lot of time and practice and is largely what it means to *be a scientist*.
 
@@ -90,8 +90,6 @@ Once we have variable we need some method to manipulate those variables and make
 
 <a name="footnote000">\*</a> 'Data' is plural.  A single fact is a datum.
 
-
-<a name="footnote001">\*\*</a> Be careful of inferences with incomplete data.
 
 <a name="footnnote002">†</a> The entire focus of Hogwarts, Unseen University, Tar Valon, The College of Winterhold, Morgrave, Sorcere, and many others is to teach magic, don't tell me magic is inexplicable.  Just because it can be explained doesn't mean it isn't magic.  We are using specific words and symbols to create effects and changes on the physical world.  If that isn't magic then I don't know what is.  
 
