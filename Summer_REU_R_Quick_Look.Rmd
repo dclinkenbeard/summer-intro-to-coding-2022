@@ -1,0 +1,182 @@
+---
+title: "Summer_REU"
+author: "Drew A. Clinkenbeard"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Quick look
+
+## Syntax
+
+Hopefully everyone had a chance to work through the Swirl lessons. If so this will be a refresher/reminder. If not then the following will help us get started.
+
+This document i a live document. Documents like this may be used to generate reports, or to show how we arrived at our conclusions. It may also be used to allow others to replicate our results.
+
+### Comments
+
+When writing code it is a good idea to add in comments. In R comments start with a hash tag.
+
+```{r}
+# this is a comment.
+# Lines may be commented by pressing cmd+shit+c / ctrl+shift+c
+# This shortcut will also uncomment lines.
+
+```
+
+## Variables
+
+As we work with data it makes sense to store values for future reference. These can be the results of calculations or, really, anything.
+
+```{r}
+# You've probably guessed by now but the {r} is indicating the the following is R code.
+
+# We should be familiar with setting a variable in r:
+x <- 6
+
+# We can also do so going the other way
+7 -> y
+
+# We can also use the more tradtional =
+
+z = x * y
+
+x
+y
+z
+
+```
+
+## Navigation
+
+We can use the IDE to navigate around R or we can use commands. The commands we have seen are:
+
+```{r}
+getwd() # shows the current working directory
+
+dir() # lists all the files in the current directory. We can also do this with list.files()
+
+newDir = "demo_dir"
+oldDir = getwd()
+
+dir.create(newDir)  # What do we think this is doing?
+
+dir()
+
+setwd(newDir)
+
+getwd()
+
+setwd(oldDir)
+```
+
+## Reading in Data
+
+There are a number of built in data sets in R but generally speaking we will often be analyzing our own data.  To do that we will need to read our data into a variable. 
+
+```{r}
+supers <- read.csv('https://raw.githubusercontent.com/dclinkenbeard/summer-intro-to-coding-2022/main/SuperHero.csv')
+```
+
+```{r}
+summary(supers)
+```
+
+```{r}
+mean(supers$Height)
+```
+
+If there is a particular subset of data we are interested in, we can use the 'subset' function to select those data.
+
+```{r}
+supers.dc <- subset(supers, Universe=="DC")
+supers.mcu <- subset(supers, Universe=="MCU")
+
+summary(supers.dc)
+
+summary(supers.mcu)
+
+```
+
+```{r}
+plot(supers$Height, type="b")
+
+```
+
+## More Advanced Plotting
+
+The built in plots in R are very useful and easy to use.  Sometimes, however, we need to do more. For this we need to install some packages.  In this case we are going to use ggplot2. 
+
+Remove hashes in code to install packages.  We are going to install a package called tidyverse.  This contains many data analysis tools including ggplot2.
+
+```{r}
+install.packages("tidyverse")
+
+library(tidyr)
+```
+
+## Using ggplot2
+
+
+```{r}
+MCU.height.power <- ggplot(supers.mcu, aes(x=Power, y=Height))
+plot(MCU.height.power)
+```
+
+```{r}
+MCU.height.power <- MCU.height.power + geom_point()
+plot(MCU.height.power)
+```
+
+```{r}
+eyePlot <- ggplot(supers)+geom_bar(aes(x=Eye_Color))
+plot(eyePlot)
+
+```
+
+```{r}
+eyePlot <- ggplot(supers) + 
+  geom_bar(aes(x=Eye_Color, fill=Eye_Color)) +
+  scale_fill_brewer()
+plot(eyePlot)
+
+```
+
+```{r}
+eyePlot <- ggplot(supers) + 
+  geom_bar(aes(x=Eye_Color, fill=Eye_Color)) +
+  scale_fill_manual(
+    values=c("Blue","Brown","Green","Grey","Red","Yellow")
+  )
+plot(eyePlot)
+
+```
+
+```{r}
+eyePlot <- ggplot(supers) + 
+  geom_bar(aes(x=Eye_Color, fill=Eye_Color)) +
+  scale_fill_manual( name="Legend",
+    values=c("Blue"="Blue","Brown"="Brown","Green"="Green","Grey"="Grey","Red"="Red","Yellow"="Yellow")
+  )
+plot(eyePlot)
+
+```
+
+### Choosing colors
+
+Here we are using the value of the ordinal data to set the color. It goes value=color for a list of colors see: <http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf>
+
+```{r}
+eyePlot <- ggplot(supers[order(supers.mcu$Height),]) + 
+  geom_bar(aes(x=Eye_Color, fill=Eye_Color)) +
+  scale_fill_manual( name="Legend",
+                     
+    values=c("Blue"="Dark Blue","Brown"="chocolate","Green"="#00ff00","Grey"="lightslategrey","Red"="Red","Yellow"="Yellow2")
+  )
+plot(eyePlot)
+
+```
